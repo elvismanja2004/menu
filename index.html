@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Menu</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Coffee Menu</h1>
+        <nav class="navigation">
+            <div class="nav-menu">
+                <button id="hot" onclick="scrollToSection('hot-drinks')">Hot drinks</button>
+                <button id="cold" onclick="scrollToSection('cold-drinks')">Cold drinks</button>
+                <button id="alkol" onclick="scrollToSection('alcohol')">Alkool</button>
+                <button id="cig" onclick="scrollToSection('cigarettes')">Cigare</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hot-drinks" class="menu-section">
+            <h2>Hot drinks</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Kapuçino</h3>
+                    <p>Ekspreso me qumësht dhe shkumë</p>
+                    <span>150 Lek (€1.70)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Ekspreso</h3>
+                    <p>Kafe e zezë</p>
+                    <span>60 Lek (€0.60)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Macchiato</h3>
+                    <p>Ekspreso me qumësht të nxehtë</p>
+                    <span>60 Lek (€0.70)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Çaj</h3>
+                    <p>Çaj i nxehtë</p>
+                    <span>60 Lek (€0.70)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Kakao</h3>
+                    <p>Qumësht me kakao</p>
+                    <span>120 Lek (€1.50)</span>
+                </div>
+                <!-- Shtoni më shumë artikuj për pije të nxehta këtu -->
+            </div>
+        </section>
+        <section id="cold-drinks" class="menu-section">
+            <h2>Cold drinks</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Kafe me Akull</h3>
+                    <p>Kafe freskuese me akull</p>
+                    <span>150 Lek (€1.70)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Ujë</h3>
+                    <p>I pastër, hidratues, i freskët</p>
+                    <span>60 Lek (€0.70)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Coca Cola</h3>
+                    <p>E errët, e gazuar, me aromë karamel</p>
+                    <span>100 Lek (€1.10)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Bravo</h3>
+                    <p>Lëng frutash</p>
+                    <span>100 Lek (€1.10)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Limon/Soda Portokalli</h3>
+                    <p>Soda freskuese e gazuar</p>
+                    <span>100 Lek (€1.10)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Fanta Portokalli/Egzotike</h3>
+                    <p>E freskët, e gazuar, me agrume</p>
+                    <span>100 Lek (€1.10)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Çaj i ftohtë Limon/Pjeshkë</h3>
+                    <p>Çaj i ftohtë freskues</p>
+                    <span>150 Lek (€1.00)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Golden Eagle</h3>
+                    <p>Pije energjike</p>
+                    <span>100 Lek (€1.10)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>B-52</h3>
+                    <p>Pije energjike</p>
+                    <span>120 Lek (€1.50)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Red-Bull</h3>
+                    <p>Pije energjike</p>
+                    <span>200 Lek (€2.20)</span>
+                </div>
+            </div>
+        </section>
+        <section id="alcohol" class="menu-section">
+            <h2>Alkool</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Birrë</h3>
+                    <p>Peroni - 120 Lek (€1.50)</p>
+                    <p>Amstel - 120 Lek (€1.50)</p>
+                    <p>Skopsko - 100 Lek (€1.10)</p>
+                    <p>Elbar - 100 Lek (€1.10)</p>
+                    <p>Korca - 100 Lek (€1.10)</p>
+                    <p>Peja - 100 Lek (€1.10)</p>
+                    <p>Tirana - 150 Lek (€1.70)</p>
+                    <!-- Shtoni më shumë artikuj për birrë këtu -->
+                </div>
+                <div class="menu-item">
+                    <h3>Shots</h3>
+                    <p>Raki - 50 Lek (€0.60)</p>
+                    <p>Konjak - 80 Lek (€0.90)</p>
+                    <p>Ferrnet - 100 Lek (€1.10)</p>
+                    <p>Vodka - 100 Lek (€1.10)</p>
+                    <p>Tequila - 200 Lek (€2.20)</p>
+                    <p>Johnnie Walker - 200 Lek (€2.20)</p>
+                    <p>Jack Daniel's - 250 Lek (€2.70)</p>
+                    <!-- Shtoni më shumë artikuj për shots këtu -->
+                </div>
+            </div>
+        </section>
+        <section id="cigarettes" class="menu-section">
+            <h2>Cigare</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Marlboro Gold</h3>
+                    <span>400 Lek (€4.50)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Whinston</h3>
+                    <span>320 Lek (€3.50)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Slims</h3>
+                    <span>320 Lek (€3.50)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Karelia</h></>
+                    <span>270 Lek (€2.90)</span>
+                </div>
+                <div class="menu-item">
+                    <h3>King</h></>
+                    <span>230 Lek (€2.50)</span>
+                </div>
+                <!-- Shtoni më shumë artikuj për cigare këtu -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <p><strong>Orari i Hapjes:</strong> Hën-Sht: 6am - 9pm, Diell: 7am - 8pm</p>
+            <p><strong>Vendndodhja:</strong> Pazar, Peshkopi</p>
+            <p><strong>Telefoni:</strong> +355 68 62 77 868</p>
+        </div>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
